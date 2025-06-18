@@ -35,7 +35,7 @@ function MainComponent({ cart, addToCart, removeFromCart, isInCart, showCart, se
             if (section) section.scrollIntoView({ behavior: "smooth" });
           }}>Categories</button>
         </div>
-        <img src="/logo.png" alt="logo" style={{ height: '50px' }} />
+        <img src="./images/logo.png" alt="logo" style={{ height: '50px' }} />
         <div className='dropdown'>
           <button className='nav-btn3' onClick={() => {
             const section = document.getElementById("about");
@@ -100,13 +100,13 @@ function MainComponent({ cart, addToCart, removeFromCart, isInCart, showCart, se
         </div>
       )}
 
-      <video className="hero-video" src="/video.mp4" autoPlay loop muted />
+      <video className="hero-video" src="./images/video.mp4" autoPlay loop muted />
 
       <div id="card" className="card-container">
-        <Card title="Animal" imageSrc="/animal.png" addToCart={addToCart} />
-        <Card title="Novelties" imageSrc="/icons.png" addToCart={addToCart} />
-        <Card title="Anime" imageSrc="/cables.png" addToCart={addToCart} />
-        <Card title="Coil cables" imageSrc="/wires.png" addToCart={addToCart} />
+        <Card title="Animal" imageSrc="./images/animal.png" addToCart={addToCart} />
+        <Card title="Novelties" imageSrc="./images/icons.png" addToCart={addToCart} />
+        <Card title="Anime" imageSrc="./images/cables.png" addToCart={addToCart} />
+        <Card title="Coil cables" imageSrc="./images/wires.png" addToCart={addToCart} />
       </div>
 
       <div id="about"><About /></div>

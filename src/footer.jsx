@@ -6,7 +6,7 @@ function footer (){
         <div id="footer" className="footer-section" >
             <div className="main-footer-div">
             <div className="last-logo">
-                <img className="cable-logo" src="logo.png" alt="" />
+                <img className="cable-logo" src="./images/logo.png" alt="" />
             </div>
             <div className="footer-categories-section">
                 <h2>categories</h2>
@@ -28,9 +28,9 @@ function footer (){
             <div className="footer-follow">
                 <h2>follow us</h2>
                 <div className="footer-us">
-                <img className="footer-us-img1" src="instagram.png" alt="" />
-                <img className="footer-us-img2" src="facebook.png" alt="" />
-                <img className="footer-us-img3" src="twitter.png" alt="" />
+                <img className="footer-us-img1" src="./images/instagram.png" alt="" />
+                <img className="footer-us-img2" src="./images/facebook.png" alt="" />
+                <img className="footer-us-img3" src="./images/twitter.png" alt="" />
             </div></div>
             </div>
             <hr />

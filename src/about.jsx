@@ -18,7 +18,7 @@ function About() {
       <div className="about-img">
         <motion.img
           className="img1"
-          src="./animate cable1.png"
+          src="./images/animate cable1.png"
           alt="image1"
           initial={{ opacity: 0, x: -100 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -28,7 +28,7 @@ function About() {
 
         <motion.img
           className="img2"
-          src="./animate cable2.png"
+          src="./images/animate cable2.png"
           alt="image2"
           initial={{ opacity: 0, x: -100 }}
           whileInView={{ opacity: 1, x: 0 }}
@@ -38,7 +38,7 @@ function About() {
 
         <motion.img
           className="img3"
-          src="./animate cable3.png"
+          src="./images/animate cable3.png"
           alt="image3"
           initial={{ opacity: 0, x: -100 }}
           whileInView={{ opacity: 1, x: 0 }}
