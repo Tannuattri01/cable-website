@@ -5,7 +5,9 @@ import About from './about';
 import Buy from './buy';
 import Gang from './gang';
 import Footer from './footer';
-import Luckycat from "./luckycat";
+import LuckyCat from "./LuckyCat";
+
+
 import Avacado from "./avacado";
 import Bulbasaur from "./Bulbasaur";
 import Pikachu from "./pikachu";
@@ -150,7 +152,7 @@ function App() {
             />
           }
         />
-        <Route path="/lucky-cat" element={<Luckycat cart={cart} addToCart={addToCart} removeFromCart={removeFromCart} isInCart={isInCart} />} />
+        <Route path="/lucky-cat" element={<LuckyCat cart={cart} addToCart={addToCart} removeFromCart={removeFromCart} isInCart={isInCart} />} />
         <Route path="/avacado" element={<Avacado cart={cart} addToCart={addToCart} removeFromCart={removeFromCart} isInCart={isInCart} />} />
         <Route path="/bulbasaur" element={<Bulbasaur cart={cart} addToCart={addToCart} removeFromCart={removeFromCart} isInCart={isInCart} />} />
         <Route path="/pikachu" element={<Pikachu cart={cart} addToCart={addToCart} removeFromCart={removeFromCart} isInCart={isInCart} />} />
