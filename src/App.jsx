@@ -5,7 +5,7 @@ import About from './about';
 import Buy from './buy';
 import Gang from './gang';
 import Footer from './footer';
-import LuckyCat from "./LuckyCat";
+import LuckyCat from "./Luckycat";
 import Avacado from "./avacado";
 import Bulbasaur from "./Bulbasaur";
 import Pikachu from "./pikachu";
