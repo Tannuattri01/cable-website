@@ -1,6 +1,6 @@
 
 import React from "react";
-import "./buy.css"; // Make sure you create/update this CSS file
+
 
 function Buy() {
   return (
