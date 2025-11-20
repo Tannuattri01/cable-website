@@ -287,163 +287,77 @@ button:focus-visible {
 
 
 /* buy-section */
-.main-buy-section{
+.main-buy-section {
   display: flex;
-  justify-content: space-evenly;
   flex-wrap: wrap;
-  margin-top: 200px;
-  
-}
-.buy-section-div1{
-  height: 500px;
-  width: 500px;
-  background-color: #ADA991;
-  position: relative;
-  transition: transform 0.3s ease-in-out;
-}
-.buy-section-div1:hover{
-  transform: scale(1.05);
-  box-shadow:0 8px 11px 0 rgba(0, 0, 0, 0.2), 0 10px 18px 0 rgba(0, 0, 0, 0.19);
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
 }
 
-.buy-section-div2{
-  height: 500px;
-  width: 500px;
-  background-color: #dbcc96;
-  position: relative;
-  transition: transform 0.3s ease-in-out;
-}
-.buy-section-div2:hover{
-  transform: scale(1.05);
-  box-shadow:0 8px 11px 0 rgba(0, 0, 0, 0.2), 0 10px 18px 0 rgba(0, 0, 0, 0.19);
-}
-.buy-section-div1-text{
-  font-size: 300px;
-  font-weight: 900;
-  color: #3333337a;
+.buy-section {
+  flex: 1 1 300px;
+  max-width: 500px;
+  background: #f8f8f8;
+  border-radius: 15px;
+  padding: 20px;
   text-align: center;
-  position: absolute;
-  top: -122px;
-    left: 164px;
-}
-.buy-section-div2-text{
-  font-size: 300px;
-  font-weight: 900;
-  color: #f7e6abb0;
-  text-align: center;
-  position: absolute;
-  top: -122px;
-    left: 99px;
-}
-.buy-section-img1{
-  height: 460px;
-  position: absolute;
-  
-}
-.buy-section-img2,.buy-section-img3,.buy-section-img4,.buy-section-img5{
-  height: 493px;
-  position: absolute;
-  
-}
-.buy-section-image1{
-  position: absolute;
-  height: 400px;
-}
-.buy-section-image2,.buy-section-image3{
-  position: absolute;
-  height: 520px;
-}
-.buy-section-image4,.buy-section-image5{
-  position: absolute;
-  height: 489px;
-  z-index: 10;
-}
-.buy-section-image6{
-  position: absolute;
-  height: 468px;
-  z-index: 10;
-  
-}
-.buy-section-image7{
-  position: absolute;
-  height: 475px;
-  right: 80px;
-}
-.buy-section-image8{
-  position: absolute;
-  height: 500px;
-  top: 130px;
-  left: 56px;
-  z-index: 10
-}
-.buy-section-image9{
-  position: absolute;
-  height: 466px;
-  z-index: 10;
-}
-.buy-text{
-  position: relative;
-}
-.off{
-  background-color: #f5f4f0;
-  border-radius: 50%;
-  height: 75px;
-  width: 75px;
-  padding-top: 24px;
-  padding-bottom: 110px;
-  padding-right: 71px;
-  border-left-width: 0px;
-  padding-left: 72px;
-  position: absolute;
-  top: -66px;
-  left: 374px;
-  box-shadow:0 8px 11px 0 rgba(0, 0, 0, 0.2), 0 10px 18px 0 rgba(0, 0, 0, 0.19)
-}
-.buy-section-div1 img {
-  opacity: 1; 
-  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-  display: block; 
-  max-width: 100%; 
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-.buy-section-div1:hover img {
-  
-  transform: rotate(10deg) ;
-}
-.buy-section-div2 img {
-  opacity: 1; 
-  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-  display: block; 
-  max-width: 100%; 
+.images-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
 }
 
-.buy-section-div2:hover img {
-  
-  transform: rotate(10deg) ;
+.images-container img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 10px;
+  transition: transform 0.3s;
 }
 
+.images-container img:hover {
+  transform: scale(1.1);
+}
 
-@media (max-width: 1350px) {
-  .main-buy-section{
-    row-gap: 70px;
-    
+.buy-count {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+.off h2 {
+  font-size: 1rem;
+  color: #ff4c4c;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .images-container img {
+    width: 50px;
+    height: 50px;
   }
-}
-@media (max-width:720px) {
-  .off{
-    display: none;
-  }
-  .buy-section-div1-text,.buy-section-div2-text{
-    position: relative;
-    left: 10px;
-  }
-}
-@media (max-width:520px) {
-  .buy-section-image8{
-    width: 200px;
+  .buy-count {
+    font-size: 1.5rem;
   }
 }
 
+@media (max-width: 480px) {
+  .images-container img {
+    width: 40px;
+    height: 40px;
+  }
+  .buy-count {
+    font-size: 1.2rem;
+  }
+  .off h2 {
+    font-size: 0.9rem;
+  }
+}
 
 /* gang-section */
 .gang-section-div{
