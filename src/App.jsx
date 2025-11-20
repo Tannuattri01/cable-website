@@ -17,7 +17,7 @@ import Cookie from "./cookie";
 import Pinkfeet from "./pinkfeet";
 import Bottle from "./bottle";
 import Brownpikachu from "./brownpikachu";
-import Coffee from "./Coffee";
+import Coffee from "./coffee";
 
 function MainComponent({ cart, addToCart, removeFromCart, isInCart, showCart, setShowCart }) {
   return (
