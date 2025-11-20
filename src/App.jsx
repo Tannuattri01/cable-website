@@ -20,8 +20,7 @@ import Brownpikachu from "./brownpikachu";
 import Coffee from "./coffee";
 
 function MainComponent({ cart, addToCart, removeFromCart, isInCart, showCart, setShowCart }) {
-  return (
-    <div className='main-section'>
+     <div className='main-section'>
       {/* Navbar */}
       <div className='navitem' style={{ display: 'flex', justifyContent: 'space-evenly', color: 'black' }}>
         <div className='dropdown'>
@@ -36,7 +35,7 @@ function MainComponent({ cart, addToCart, removeFromCart, isInCart, showCart, se
             if (section) section.scrollIntoView({ behavior: "smooth" });
           }}>Categories</button>
         </div>
-        <img src="./images/logo.png" alt="logo" style={{ height: '50px' }} />
+        <img src="/images/logo.png" alt="logo" style={{ height: '50px' }} />
         <div className='dropdown'>
           <button className='nav-btn3' onClick={() => {
             const section = document.getElementById("about");
@@ -101,13 +100,13 @@ function MainComponent({ cart, addToCart, removeFromCart, isInCart, showCart, se
         </div>
       )}
 
-      <video className="hero-video" src="./images/video.mp4" autoPlay loop muted />
+      <video className="hero-video" src="/images/video.mp4" autoPlay loop muted />
 
       <div id="card" className="card-container">
-        <Card title="Animal" imageSrc="./images/animal.png" addToCart={addToCart} />
-        <Card title="Novelties" imageSrc="./images/icons.png" addToCart={addToCart} />
-        <Card title="Anime" imageSrc="./images/cables.png" addToCart={addToCart} />
-        <Card title="Coil cables" imageSrc="./images/wires.png" addToCart={addToCart} />
+        <Card title="Animal" imageSrc="/images/animal.png" addToCart={addToCart} />
+        <Card title="Novelties" imageSrc="/images/icons.png" addToCart={addToCart} />
+        <Card title="Anime" imageSrc="/images/cables.png" addToCart={addToCart} />
+        <Card title="Coil cables" imageSrc="/images/wires.png" addToCart={addToCart} />
       </div>
 
       <div id="about"><About /></div>
